@@ -6,10 +6,10 @@ on:
   schedule:
     - cron: '11 11 3,18 * *'
 
-name: CHECK-API-VERSION
+name: Check API Version
 
 jobs:
-  CHECK-API-VERSION:
+  Check-API-Version:
     runs-on: ubuntu-22.04
 
     name: ${{ matrix.config.os }} (${{ matrix.config.r }})
@@ -24,6 +24,11 @@ jobs:
         with:
           use-public-rspm: true
       - uses: r-lib/actions/setup-r-dependencies@v2
+      - name: Install nbar2
+        run: |
+          install.packages('remotes')
+          remotes::install_local()
+        shell: Rscript {0}
       - name: Check whether the API has changed
         run: |
            stopifnot(nbar2::nba_check_version())

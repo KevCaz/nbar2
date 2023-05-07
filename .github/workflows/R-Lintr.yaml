@@ -6,10 +6,10 @@ on:
   pull_request:
     branches: main
 
-name: lint
+name: R Lintr
 
 jobs:
-  lint:
+  R-Lintr:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
