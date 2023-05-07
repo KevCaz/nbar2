@@ -1,0 +1,174 @@
+{
+    "areaType": {
+        "indexed": true,
+        "type": "keyword",
+        "allowedOperators": [
+            "=",
+            "!=",
+            "EQUALS_IC",
+            "NOT_EQUALS_IC",
+            "IN",
+            "NOT_IN",
+            "MATCHES",
+            "NOT_MATCHES",
+            "STARTS_WITH",
+            "NOT_STARTS_WITH",
+            "STARTS_WITH_IC",
+            "NOT_STARTS_WITH_IC"
+        ]
+    },
+    "countryNL": {
+        "indexed": true,
+        "type": "keyword",
+        "allowedOperators": [
+            "=",
+            "!=",
+            "EQUALS_IC",
+            "NOT_EQUALS_IC",
+            "IN",
+            "NOT_IN",
+            "MATCHES",
+            "NOT_MATCHES",
+            "STARTS_WITH",
+            "NOT_STARTS_WITH",
+            "STARTS_WITH_IC",
+            "NOT_STARTS_WITH_IC"
+        ]
+    },
+    "isoCode": {
+        "indexed": true,
+        "type": "keyword",
+        "allowedOperators": [
+            "=",
+            "!=",
+            "EQUALS_IC",
+            "NOT_EQUALS_IC",
+            "IN",
+            "NOT_IN",
+            "MATCHES",
+            "NOT_MATCHES",
+            "STARTS_WITH",
+            "NOT_STARTS_WITH",
+            "STARTS_WITH_IC",
+            "NOT_STARTS_WITH_IC"
+        ]
+    },
+    "locality": {
+        "indexed": true,
+        "type": "keyword",
+        "allowedOperators": [
+            "=",
+            "!=",
+            "EQUALS_IC",
+            "NOT_EQUALS_IC",
+            "CONTAINS",
+            "NOT_CONTAINS",
+            "IN",
+            "NOT_IN",
+            "MATCHES",
+            "NOT_MATCHES",
+            "STARTS_WITH",
+            "NOT_STARTS_WITH",
+            "STARTS_WITH_IC",
+            "NOT_STARTS_WITH_IC"
+        ]
+    },
+    "recordURI": {
+        "indexed": true,
+        "type": "keyword",
+        "allowedOperators": [
+            "=",
+            "!=",
+            "EQUALS_IC",
+            "NOT_EQUALS_IC",
+            "IN",
+            "NOT_IN",
+            "MATCHES",
+            "NOT_MATCHES",
+            "STARTS_WITH",
+            "NOT_STARTS_WITH",
+            "STARTS_WITH_IC",
+            "NOT_STARTS_WITH_IC"
+        ]
+    },
+    "shape": {
+        "indexed": true,
+        "type": "geo_shape",
+        "allowedOperators": [
+            "IN",
+            "NOT_IN"
+        ]
+    },
+    "source": {
+        "indexed": true,
+        "type": "keyword",
+        "allowedOperators": [
+            "=",
+            "!=",
+            "EQUALS_IC",
+            "NOT_EQUALS_IC",
+            "IN",
+            "NOT_IN",
+            "MATCHES",
+            "NOT_MATCHES",
+            "STARTS_WITH",
+            "NOT_STARTS_WITH",
+            "STARTS_WITH_IC",
+            "NOT_STARTS_WITH_IC"
+        ]
+    },
+    "sourceSystem.code": {
+        "indexed": true,
+        "type": "keyword",
+        "allowedOperators": [
+            "=",
+            "!=",
+            "EQUALS_IC",
+            "NOT_EQUALS_IC",
+            "IN",
+            "NOT_IN",
+            "MATCHES",
+            "NOT_MATCHES",
+            "STARTS_WITH",
+            "NOT_STARTS_WITH",
+            "STARTS_WITH_IC",
+            "NOT_STARTS_WITH_IC"
+        ]
+    },
+    "sourceSystem.name": {
+        "indexed": true,
+        "type": "keyword",
+        "allowedOperators": [
+            "=",
+            "!=",
+            "EQUALS_IC",
+            "NOT_EQUALS_IC",
+            "IN",
+            "NOT_IN",
+            "MATCHES",
+            "NOT_MATCHES",
+            "STARTS_WITH",
+            "NOT_STARTS_WITH",
+            "STARTS_WITH_IC",
+            "NOT_STARTS_WITH_IC"
+        ]
+    },
+    "sourceSystemId": {
+        "indexed": true,
+        "type": "keyword",
+        "allowedOperators": [
+            "=",
+            "!=",
+            "EQUALS_IC",
+            "NOT_EQUALS_IC",
+            "IN",
+            "NOT_IN",
+            "MATCHES",
+            "NOT_MATCHES",
+            "STARTS_WITH",
+            "NOT_STARTS_WITH",
+            "STARTS_WITH_IC",
+            "NOT_STARTS_WITH_IC"
+        ]
+    }
+}
